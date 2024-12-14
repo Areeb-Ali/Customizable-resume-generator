@@ -41,12 +41,25 @@ label {
     font-weight: 500;
 }
 
+#note {
+    display: block;
+    color: #666;
+    font-weight: 500;
+    font-size: small;
+    text-align: center;
+    margin-top: 5px;
+}
+
 input, textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+}
+
+input {
+    margin-bottom: 15px;
 }
 
 button {
